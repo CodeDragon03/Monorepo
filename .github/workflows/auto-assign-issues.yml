@@ -9,7 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Auto-assign issue'
-        uses: pozil/auto-assign-issue@v1.11.0
+        uses: pozil/auto-assign-issue@v1
         with:
           assignees: CodeDragon03, COdeDragon10, AdityaRaj717
           numOfAssignee: 1
+          allowSelfAssign: true
