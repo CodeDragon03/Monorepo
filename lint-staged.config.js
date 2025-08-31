@@ -4,7 +4,7 @@
  */
 
 const config = {
-  '*.{js,jsx,ts,tsx}': 'prettier --write',
+  '*.{js}': 'prettier --write',
 };
 
 export default config;
