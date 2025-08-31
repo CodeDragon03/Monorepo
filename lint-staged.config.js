@@ -2,6 +2,9 @@
  * @filename: lint-staged.config.js
  * @type {import('lint-staged').Configuration}
  */
-export default {
-  '*': 'prettier --write',
+
+const config = {
+  '*.{js,jsx,ts,tsx}': 'prettier --write',
 };
+
+export default config;

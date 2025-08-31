@@ -3,7 +3,7 @@
  * @type {import("prettier").Config}
  */
 
-const config = {
+export default {
   arrowParens: 'always',
   bracketSpacing: true,
   htmlWhitespaceSensitivity: 'css',
@@ -20,5 +20,3 @@ const config = {
   trailingComma: 'all',
   useTabs: false,
 };
-
-export default config;
