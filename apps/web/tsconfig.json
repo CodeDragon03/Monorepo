@@ -1,6 +1,9 @@
 {
   "extends": "@repo/typescript-config/react",
-  "compilerOptions": {},
-  "include": ["**/*.ts", "**/*.js", "**/*.tsx", "**/*.jsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
 }
