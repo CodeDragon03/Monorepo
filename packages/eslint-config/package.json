@@ -13,6 +13,7 @@
     "./node": "./config/node-lib.config.js"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
     "@types/eslint": "^9.6.1",
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",

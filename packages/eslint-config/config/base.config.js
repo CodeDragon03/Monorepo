@@ -11,7 +11,7 @@ import turboEslintPlugin from 'eslint-plugin-turbo';
  * @type {import("eslint").Linter.Config[]}
  * */
 
-const config = [
+export default [
   ...turboConfig,
   js.configs.recommended,
   eslintConfigPrettier,
@@ -30,10 +30,10 @@ const config = [
     },
     extends: ['plugin:@typescript-eslint/recommended'],
     rules: {
-      'import/order': 'off',
+      'import/order': 'on',
       'turbo/no-undeclared-env-vars': 'warn',
       '@typescript-eslint/consistent-type-imports': 'error',
-      'no-console': 'on',
+      'no-console': 'error',
     },
   },
 
@@ -41,5 +41,3 @@ const config = [
     ignores: ['dist/**'],
   },
 ];
-
-export default config;
